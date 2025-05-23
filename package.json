@@ -3,7 +3,7 @@
   "displayName": "Auto Open Markdown Preview",
   "publisher": "effcode",
   "version": "0.0.1",
-  "description": "when you open a markdown file, it will automatically open the preview",
+  "description": "automatically open the preview, when you open a markdown file",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -11,6 +11,7 @@
     "onLanguage:markdown"
   ],
   "main": "./out/extension.js",
+  "icon": "imgs/icon.png",
   "contributes": {},
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
@@ -21,5 +22,9 @@
     "typescript": "^5.0.0",
     "@types/vscode": "^1.84.0",
     "vsce": "^2.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunnylake/markdown-auto-preview.git"
   }
 }
