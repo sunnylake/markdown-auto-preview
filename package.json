@@ -1,0 +1,24 @@
+{
+  "name": "markdown-auto-preview",
+  "displayName": "Markdown Auto Preview",
+  "version": "0.0.1",
+  "description": "Auto-toggle Markdown preview on tab switch while preserving editor focus.",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/vscode": "^1.84.0",
+    "vsce": "^2.13.0"
+  }
+}
