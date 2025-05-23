@@ -1,8 +1,9 @@
 {
   "name": "markdown-auto-preview",
-  "displayName": "Markdown Auto Preview",
+  "displayName": "Auto Open Markdown Preview",
+  "publisher": "effcode",
   "version": "0.0.1",
-  "description": "Auto-toggle Markdown preview on tab switch while preserving editor focus.",
+  "description": "when you open a markdown file, it will automatically open the preview",
   "engines": {
     "vscode": "^1.84.0"
   },
